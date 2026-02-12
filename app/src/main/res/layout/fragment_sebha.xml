@@ -67,5 +67,4 @@
         app:layout_constraintBottom_toBottomOf="@id/sebhaBody"
         />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>

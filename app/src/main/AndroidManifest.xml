@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Islami_app">
-
+        <activity
+            android:name=".ui.screens.hadeth_details.HadethViewActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.screens.main.MainActivity"
             android:exported="true">
@@ -21,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.screens.main.sura_details.SurasDetailsActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
